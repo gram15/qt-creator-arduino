@@ -25,11 +25,11 @@ What you need to use (*pre-requisites*):
 * PC running Linux
 - Windows and Mac can use it too, but some small changes are necessary
 - In the future I will provide files ready to use in all environments
-* Arduino IDE 1.6.3
+* Arduino IDE 1.6.3 (last change are for Arduino IDE 2:1.0.5+dfsg2-4)
   + http://www.arduino.cc/en/Main/Software
-* Arduino-Makefile 1.3.4
+* Arduino-Makefile 1.3.4 (it can be installed by apt in Ubuntu-like OS)
   + https://github.com/sudar/Arduino-Makefile
-* Qt Creator 3.3.1
+* Qt Creator 3.3.1 (currently tested with Qt Creator 3.5.1)
   + http://www.qt.io/download-open-source
 * GTKTerm version 0.99
   + Can be any other serial monitor, but I chose it because is very lightweight
@@ -76,8 +76,8 @@ INSTALLATION INSTRUCTIONS
 2) Execute the following *commands* in Terminal:
 
 ```
-cd ~/Qt5.4.1/Tools/QtCreator/share/qtcreator/templates/wizards/
-git clone https://github.com/cleitonsouza01/qt-creator-arduino
+cd ~/.config/QtProject/qtcreator/templates/wizards/
+git clone https://github.com/gram15/qt-creator-arduino
 ```
 You should see something similar to this:
 
@@ -91,8 +91,8 @@ Checking connectivity... done.
 ```
 **Note:**
 * You may need to change the first command to match your Qt installation.
-* My Qt installation was ~/Qt5.4.1/Tools/QtCreator/share/qtcreator/templates/wizards/
-* A tip is to type in ~/Qt then hit [TAB] to get the shell to auto-complete stuff for you.
+* My Qt installation was ~/.config/QtProject/qtcreator/templates/wizards/
+* A tip is to type in ~/.config/Qt then hit [TAB] to get the shell to auto-complete stuff for you.
 
 3) Open Qt Creator
 
