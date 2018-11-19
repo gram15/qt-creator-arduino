@@ -174,7 +174,7 @@ leave room for the Qt 4 target page.
         </field>
         <field mandatory="true" name="ARDUINO_MAKEFILE_DIR">
             <fieldcontrol class="QLineEdit" validator='^[^"]+$'
-                defaulttext="/usr/share/arduino/Arduino-Makefile" />
+                defaulttext="/usr/share/arduino" />
             <fielddescription>Makefile Path:</fielddescription>
         </field>
         <field mandatory="true" name="AVR_TOOLS_DIR">

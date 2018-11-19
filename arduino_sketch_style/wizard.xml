@@ -175,7 +175,7 @@ leave room for the Qt 4 target page.
         </field>
         <field mandatory="true" name="ARDUINO_MAKEFILE_DIR">
             <fieldcontrol class="QLineEdit" validator='^[^"]+$'
-                defaulttext="/usr/share/arduino/Arduino-Makefile" />
+                defaulttext="/usr/share/arduino" />
             <fielddescription>Makefile Path:</fielddescription>
         </field>
         <field mandatory="true" name="AVR_TOOLS_DIR">
@@ -185,12 +185,12 @@ leave room for the Qt 4 target page.
         </field>
         <field mandatory="true" name="ARDUINO_PORT">
             <fieldcontrol class="QLineEdit" validator='^[^"]+$'
-                          defaulttext="/dev/ttyACM0" />
+                          defaulttext="/dev/ttyS0" />
             <fielddescription>Serial port:</fielddescription>
         </field>
         <field mandatory="true" name="ARDUINO_PORT_SPEED">
             <fieldcontrol class="QLineEdit" validator='^[^"]+$'
-                          defaulttext="115200" />
+                          defaulttext="57600" />
             <fielddescription>Serial port baud rate:</fielddescription>
         </field>
         <field mandatory="true" name="SERIAL_MONITOR_PROGRAM">

@@ -14,11 +14,11 @@ BOARD_SUB	= %BOARD_MCU%
 MONITOR_PORT = %ARDUINO_PORT%
 
 # Avrdude code for programming
-AVRDUDE		= $(ARDUINO_DIR)/hardware/tools/avr/bin/avrdude
-AVRDUDE_CONF	= $(ARDUINO_DIR)/hardware/tools/avr/etc/avrdude.conf
+AVRDUDE		= $(ARDUINO_DIR)/hardware/tools/avrdude
+AVRDUDE_CONF	= $(ARDUINO_DIR)/hardware/tools/avrdude.conf
 #AVRDUDE_ARD_PROGRAMMER	= wiring
 #AVRDUDE_ARD_BAUDRATE	= 115200
-
+AVRDUDE_ARD_BAUDRATE	= 57600
 
 # Arduino makefile
 include %ARDUINO_MAKEFILE_DIR%/Arduino.mk
