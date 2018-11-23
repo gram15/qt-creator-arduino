@@ -12,7 +12,8 @@ HEADERS +=
 DISTFILES += \
     Makefile
 
-INCLUDEPATH = %ARDUINO_DIR%/hardware/arduino/avr/cores/arduino \
+INCLUDEPATH = /usr/lib/avr/include \
+%ARDUINO_DIR%/hardware/arduino/cores/arduino \
 %ARDUINO_DIR%/libraries/Bridge/src \
 %ARDUINO_DIR%/libraries/Esplora/src \
 %ARDUINO_DIR%/libraries/Ethernet/src \
